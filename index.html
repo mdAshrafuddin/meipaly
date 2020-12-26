@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meipaly</title>
+    <!-- ========== Start Stylesheet ========== -->
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- css for fontawesome  -->
+    <link rel="stylesheet" href="./css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome/fontawesome.min.css">
+    <!-- css for modal-video  -->
+    <link rel="stylesheet" href="./css/modal-video/modal-video.min.css">
+    <!-- css for slick  -->
+    <link rel="stylesheet" href="./css/slick/slick.css">
+    <link rel="stylesheet" href="./css/slick/slick-theme.css">
+    <!-- css for owlcarousel  -->
+    <link rel="stylesheet" href="./css/owlcarousel/owl.carousel.min.css">
+    <!-- css for owlcarousel theme -->
+    <link rel="stylesheet" href="./css/owlcarousel/owl.theme.default.min.css">
+    <!-- css for dlmenu  -->
+    <link rel="stylesheet" href="./css/dlmenu/delmenu.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Start of header -->
+    <header class="header-area" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-sm-3 col-md-3">
+                   <div class="logo">
+                       <img src="img/logo/1.png" alt="Logo Imges">
+                   </div>
+                </div>
+                <div class="col-lg-8 col-md-7 col-sm-3">
+                    <nav class="mainmenu text-center">
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Service
+                                    <ul class="sub-menu">
+                                        <li><a href="services.html">Service</a></li>
+                                        <li><a href="service_detail.html">Service Detail</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="menu-item-has-children"><a href="#">Portfolio</a>
+                                <ul class="sub-menu">
+                                    <li><a href="portfolio.html">Portfolio v1</a></li>
+                                    <li><a href="portfolio2.html">Portfolio v2</a></li>
+                                    <li><a href="portfolio_detail.html">Portfolio Detail</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children"><a href="#">Blog</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog.html">Blog v1</a></li>
+                                    <li><a href="blog2.html">Blog v2</a></li>
+                                    <li><a href="blog3.html">Blog v3</a></li>
+                                    <li><a href="blog_single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2 col-sm-2 col-md-2">
+                    <div class="navigator text-right">
+                        <a class="search searchToggler" href="javascript:void(0);"><i class="fas fa-search"></i></a>
+                        <a href="javascript:void(0);" class="menu mobilemenu hidden-sm hidden-md hidden-lg hidden-xs"><i class="mei-menu"></i></a>
+                        <a id="open-overlay-nav" class="menu hamburger" href="javascript:void(0);"><i class="fas fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!-- End of header -->
+     <!-- Search From -->
+     <div class="searchFixed popupBG">
+        <div class="container-fluid">
+            <a href="" id="sfCloser" class="sfCloser"></a>
+            <div class="searchForms">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <form method="post" action="#">
+                                <input type="text" name="s" class="searchField" placeholder="Search here..."/>
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search From -->
+
+    <!-- PopUP Menu -->
+    <div class="popup popup__menu">
+        <a href="" id="close-popup" class="close-popup"></a>
+        <div class="container mobileContainer">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <div class="logo2">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="popup-inner">
+                        <div class="dl-menu__wrap dl-menuwrapper">
+                            <ul class="dl-menu dl-menuopen">
+                                <li class="menu-item-has-children">
+                                    <a href="javascript:void(0);">home</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="index.html">Home 01</a></li>
+                                        <li><a href="index2.html">Home 02</a></li>
+                                        <li><a href="index3.html">Home 03</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li class="menu-item-has-children"><a href="javascript:void(0);">services</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="services.html">Service</a></li>
+                                        <li><a href="service_detail.html">Service Detail</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="javascript:void(0);">Portfolio</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="portfolio.html">Portfolio v1</a></li>
+                                        <li><a href="portfolio2.html">Portfolio v2</a></li>
+                                        <li><a href="portfolio_detail.html">Portfolio Detail</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="javascript:void(0);">Blog</a>
+                                    <ul class="dl-submenu">
+                                        <li><a href="blog.html">Blog v1</a></li>
+                                        <li><a href="blog2.html">Blog v2</a></li>
+                                        <li><a href="blog3.html">Blog v3</a></li>
+                                        <li><a href="blog_single.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-xs-12 text-left">
+                    <ul class="footer__contacts text-left">
+                        <li>Phone: 666 888 000</li>
+                        <li>Email: needhelp@meipaly.com</li>
+                        <li>Address: 66 Broklyn Street, New York United States of America</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-xs-12 col-xs-12">
+                    <div class="popUp_social text-right">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fa fa-youtube-play"></i>Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PopUP Menu -->
+    <!-- Start of home -->
+    <section id="home">
+    
+        <!-- Home Background -->
+        <video class="home-bg-video" autoplay loop muted>
+            <source src="./video/video.mp4" type="video/mp4">
+            <source src="./video/video.ogg" type="video/ogg">
+            <source src="./video/video.webm" type="video/webm">
+        </video>
+        <!-- Overlay -->
+        <div id="home-overlay"></div>
+        <!-- Home conent -->
+        <div id="home-content">
+            <!-- Home conent inner -->
+            <div id="home-content-inner">
+                <div class="home-heading">
+                    <h1 id="home-heading-01">WELCOME TO MEIPALY AGENCY</h1>
+                    <h1 id="home-heding-02">SMART WEB <br> DESIGN AGENCY</h1>
+                </div>
+                <div class="button_area">
+                    <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                        <span>Start Now</span></a>
+                </div>        
+            </div>
+        </div>
+    </section>           
+
+    </section><!-- End of home -->
+    <!-- Start of service -->
+    <section id="services-area" class="default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- service heading -->
+                    <div class="service-heading">
+                        <h4>Services we are offering</h4>
+                        <h2>We design digital products that<br>help grow businesses.</h2>
+                        <p>We are committed to providing our customers with exceptional service <br> while offering our
+                            employees the best training.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row custom_column">
+                <div class="col-md-3">
+                    <div class="filpper">
+                        <a href="#">
+                            <div class="front">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                            <div class="back">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="filpper">
+                        <a href="#">
+                            <div class="front">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                            <div class="back">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="filpper">
+                        <a href="#">
+                            <div class="front">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                            <div class="back">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="filpper">
+                        <a href="#">
+                            <div class="front">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                            <div class="back">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="filpper">
+                        <a href="#">
+                            <div class="front">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                            <div class="back">
+                                <i class="fas fa-laptop-code"></i>
+                                <h3>Website Development</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End of service -->
+    </section><!-- End of service -->  
+    <!-- About Agency Section -->
+    <section id="agency-area" class="default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="agency-about">
+                        <h4 class="agency-title">welcom to smart meipaly web agency</h4>
+                        <h2 class="agency-section">We are the Best Website agency in The World</h2>
+                        <p class="agency-des">
+                            
+                            We are committed to providing our customers with exceptional service while offering our employees the best training. 
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the
+                            industry's standard dummy text ever since the 1500s.
+                        
+                        </p>
+                    </div>
+                    <div class="button_area">
+                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                            <span>Start Now</span></a>
+                    </div>  
+                </div>
+                <div class="col-md-6">
+                    <div class="agency-img1">
+                        <img src="./img/agency/1.jpg" alt="">
+                    </div>
+                    <div class="agency-img2">
+                        <img src="./img/agency/2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Agency Section -->
+    <!-- Start we do Section -->
+    <section id="we-do-area">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="common-heading">
+                        <h4 class="sub_title">how do we works</h4>
+                        <h2 class="sec_title">Digital Experience</h2>
+                        <p class="sec_desc">
+                            We are committed to providing our customers with exceptional service while<br> offering our employees the best training.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="we-do-video-wrap">
+                        <img src="./img/we_do/1.jpg" alt="video img">
+                        <div class="play-video">
+                            <a class="video_popup" data-channel="video" data-video-url="http://developer.a-blogcms.jp/themes/developer/movies/2.8.0.mp4"><i class="fa fa-play"></i></a>
+                            <h2>Watch Video</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row subscribes-area">
+                <div class="col-md-4">
+                    <div class="subscribes-title">
+                        <h4 class="sub_title">don’t miss out our latest updates</h4>
+                        <h2 class="sec_title">Subscribe us</h2>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                        <form action="" method="post" class="subscribefrom">
+                            <input type="email" placeholder="Enter your email" name="email">
+                            
+                                <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                                    <span>SUBSCRIBE US</span></a>
+                            
+                        </form>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End we do Section -->
+
+    <!-- Start of Portfolio Section -->
+    <section id="portfolio_area" class="default-padding">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="common-heading">
+                        <h4 class="sub_title">OUR PORTFOLIO</h4>
+                        <h2 class="sec_title">WORK SHOWCASE</h2>
+                        <p class="sec_desc">
+                            We are committed to providing our customers with exceptional service while<br>offering our employees the best training.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="singlefolio">
+                        <img src="./img/portfolio/1.jpg" alt="">
+                        <div class="folioHover">
+                            <a href="#" class="cat">Graphic</a>
+                            <h4><a href="#">Design Styles</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="singlefolio">
+                        <img src="./img/portfolio/1.jpg" alt="">
+                        <div class="folioHover">
+                            <a href="#" class="cat">Graphic</a>
+                            <h4><a href="#">Design Styles</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="singlefolio">
+                        <img src="./img/portfolio/1.jpg" alt="">
+                        <div class="folioHover">
+                            <a href="#" class="cat">Graphic</a>
+                            <h4><a href="#">Design Styles</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="singlefolio">
+                        <img src="./img/portfolio/1.jpg" alt="">
+                        <div class="folioHover">
+                            <a href="#" class="cat">Graphic</a>
+                            <h4><a href="#">Design Styles</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="singlefolio">
+                        <img src="./img/portfolio/1.jpg" alt="">
+                        <div class="folioHover">
+                            <a href="#" class="cat">Graphic</a>
+                            <h4><a href="#">Design Styles</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="singlefolio">
+                        <img src="./img/portfolio/1.jpg" alt="">
+                        <div class="folioHover">
+                            <a href="#" class="cat">Graphic</a>
+                            <h4><a href="#">Design Styles</a></h4>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- End of Portfolio Section -->
+    <!-- Start of FunFact Section -->
+    <section id="funfact_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 br">
+                    <div class="singlefuct">
+                        <h1 data-counter="8705" class="timer"><span class="countSpan">8</span>705</h1>
+                        <h3>Projects Completed</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 br">
+                    <div class="singlefuct">
+                        <h1 data-counter="8705" class="timer"><span class="countSpan">8</span>705</h1>
+                        <h3>Projects Completed</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 br">
+                    <div class="singlefuct">
+                        <h1 data-counter="8705" class="timer"><span class="countSpan">8</span>705</h1>
+                        <h3>Projects Completed</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="singlefuct">
+                        <h1 data-counter="8705" class="timer"><span class="countSpan">8</span>705</h1>
+                        <h3>Projects Completed</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End ofFunFact Section -->
+    <!-- Trust Clients Section -->
+    <section class="trustClient">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cl_content">
+                        <img src="./img/trust_client/1.jpg" alt="trust client">
+                        <div class="trust-client-content">
+                            <div class="row">
+                                <div class="col-md-5"></div>
+                                <div class="col-md-7">
+                                    <div class="abci_content">
+                                        <h2>We are trusted by more than 8900 clients</h2>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud exercita-tion ullamco laboris nisi ut aliquip ex ea commodo.
+                                        </p>
+                                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                                            <span>Learn More</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team_aera" class="default-padding">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="common-heading">
+                        <h4 class="sub_title">MEET THE TEAM</h4>
+                        <h2 class="sec_title">EXPERT PEOPLE</h2>
+                        <p class="sec_desc">
+                            We are committed to providing our customers with exceptional service while<br>offering our employees the best training.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team_slider slider">
+            <div class="single_team">
+                <div class="tm_img">
+                    <img src="img/team/1.jpg" alt="team">
+                    <div class="tm_overly">
+                        <div class="team_social">
+                            <a href="#"><span>Facebook</span></a>
+                            <a href="#"><span>Twitter</span></a>
+                            <a href="#"><span>Youtube</span></a>
+                        </div>
+                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                            <span>Learn More</span></a>
+                    </div>
+                </div>
+                <div class="detail_TM">
+                    <h5>kevin smith</h5>
+                    <h6>co founder</h6>
+                </div>
+            </div>
+            <div class="single_team">
+                <div class="tm_img">
+                    <img src="img/team/1.jpg" alt="team">
+                    <div class="tm_overly">
+                        <div class="team_social">
+                            <a href="#"><span>Facebook</span></a>
+                            <a href="#"><span>Twitter</span></a>
+                            <a href="#"><span>Youtube</span></a>
+                        </div>
+                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                            <span>Learn More</span></a>
+                    </div>
+                </div>
+                <div class="detail_TM">
+                    <h5>kevin smith</h5>
+                    <h6>co founder</h6>
+                </div>
+            </div>
+            <div class="single_team">
+                <div class="tm_img">
+                    <img src="img/team/1.jpg" alt="team">
+                    <div class="tm_overly">
+                        <div class="team_social">
+                            <a href="#"><span>Facebook</span></a>
+                            <a href="#"><span>Twitter</span></a>
+                            <a href="#"><span>Youtube</span></a>
+                        </div>
+                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                            <span>Learn More</span></a>
+                    </div>
+                </div>
+                <div class="detail_TM">
+                    <h5>kevin smith</h5>
+                    <h6>co founder</h6>
+                </div>
+            </div>
+            <div class="single_team">
+                <div class="tm_img">
+                    <img src="img/team/1.jpg" alt="team">
+                    <div class="tm_overly">
+                        <div class="team_social">
+                            <a href="#"><span>Facebook</span></a>
+                            <a href="#"><span>Twitter</span></a>
+                            <a href="#"><span>Youtube</span></a>
+                        </div>
+                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                            <span>Learn More</span></a>
+                    </div>
+                </div>
+                <div class="detail_TM">
+                    <h5>kevin smith</h5>
+                    <h6>co founder</h6>
+                </div>
+            </div>
+            <div class="single_team">
+                <div class="tm_img">
+                    <img src="img/team/1.jpg" alt="team">
+                    <div class="tm_overly">
+                        <div class="team_social">
+                            <a href="#"><span>Facebook</span></a>
+                            <a href="#"><span>Twitter</span></a>
+                            <a href="#"><span>Youtube</span></a>
+                        </div>
+                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                            <span>Learn More</span></a>
+                    </div>
+                </div>
+                <div class="detail_TM">
+                    <h5>kevin smith</h5>
+                    <h6>co founder</h6>
+                </div>
+            </div>
+            <div class="single_team">
+                <div class="tm_img">
+                    <img src="img/team/1.jpg" alt="team">
+                    <div class="tm_overly">
+                        <div class="team_social">
+                            <a href="#"><span>Facebook</span></a>
+                            <a href="#"><span>Twitter</span></a>
+                            <a href="#"><span>Youtube</span></a>
+                        </div>
+                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                            <span>Learn More</span></a>
+                    </div>
+                </div>
+                <div class="detail_TM">
+                    <h5>kevin smith</h5>
+                    <h6>co founder</h6>
+                </div>
+            </div>
+            <div class="single_team">
+                <div class="tm_img">
+                    <img src="img/team/1.jpg" alt="team">
+                    <div class="tm_overly">
+                        <div class="team_social">
+                            <a href="#"><span>Facebook</span></a>
+                            <a href="#"><span>Twitter</span></a>
+                            <a href="#"><span>Youtube</span></a>
+                        </div>
+                        <a class="common-btn red_bg" href="#about" title="Start Now" role="button">
+                            <span>Learn More</span></a>
+                    </div>
+                </div>
+                <div class="detail_TM">
+                    <h5>kevin smith</h5>
+                    <h6>co founder</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section -->
+    <!-- Client Section -->
+    <section id="client_area" class="bg-gray">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="common-heading">
+                        <h4 class="sub_title">OUR CLIENTS</h4>
+                        <h2 class="sec_title">THEY TRUST US</h2>
+                        <p class="sec_desc">
+                            We are committed to providing our customers with exceptional service while <br>
+                            offering our employees the best training.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="client_slider singleClient_area owl-carousel owl-theme">  
+                        <div class="singleClient">
+                            <a href="#">
+                                <img src="img/client/client-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="singleClient">
+                            <a href="#">
+                                <img src="img/client/client-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="singleClient">
+                            <a href="#">
+                                <img src="img/client/client-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="singleClient">
+                            <a href="#">
+                                <img src="img/client/client-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="singleClient">
+                            <a href="#">
+                                <img src="img/client/client-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="singleClient">
+                            <a href="#">
+                                <img src="img/client/client-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="singleClient">
+                            <a href="#">
+                                <img src="img/client/client-1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="singleClient">
+                            <a href="#">
+                                <img src="img/client/client-1.png" alt="">
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Client Section -->
+    <!-- Testimonial Section -->
+    <section id="testimonial-area" class="default-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-sm-12 text-center">
+                    <div class="testimonial_inner">
+                        <div class="testimonial_content">
+                            <div class="testi_icon"><i class="fas fa-users"></i></div>
+                            <h2>Great things in business are never done by one person. <span>They’re done by a team of people.</span></h2>
+                            <p>
+                                We are committed to providing our customers with exceptional service while<br> offering our employees the best training.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section -->
+    <!-- Blog Section -->
+    <section id="blog_area" class="default-padding">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="common-heading">
+                        <h4 class="sub_title">OUR CLIENTS</h4>
+                        <h2 class="sec_title">THEY TRUST US</h2>
+                        <p class="sec_desc">
+                            We are committed to providing our customers with exceptional service while
+                            <br>offering our employees the best training.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog_item">
+                        <div class="lbi_thumb">
+                            <img src="./img/blog/1.jpg" alt="">
+                        </div>
+                        <div class="lbi_details">
+                            <a href="#" class="lbid_date">26 NOV</a>
+                            <h2><a href="#">basic rules of running web  agency business</a></h2>
+                            <a class="learnM" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog_item">
+                        <div class="lbi_thumb">
+                            <img src="./img/blog/1.jpg" alt="">
+                        </div>
+                        <div class="lbi_details">
+                            <a href="#" class="lbid_date">26 NOV</a>
+                            <h2><a href="#">basic rules of running web  agency business</a></h2>
+                            <a class="learnM" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog_item">
+                        <div class="lbi_thumb">
+                            <img src="./img/blog/1.jpg" alt="">
+                        </div>
+                        <div class="lbi_details">
+                            <a href="#" class="lbid_date">26 NOV</a>
+                            <h2><a href="#">basic rules of running web  agency business</a></h2>
+                            <a class="learnM" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    </section>
+    <!-- Blog Section -->
+
+    <!-- Ready section -->
+    <section id="ready_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2 class="sec_title white">Let's Get Your Project Started!</h2>
+                </div>
+                <div class="col-md-3">
+                    <a class="common-btn red_bg" href="contact.html" title="Start Now" role="button">
+                        <span>Contact US</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ready section -->
+    <!-- Blog section -->
+    <footer class="footer_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="widget aboutwidget">
+                        <a href="">
+                            <img src="img/logo/1.png" alt="logo">
+                        </a>
+                        <p>Welcome to our web design agency. Lorem ipsum is simply free text dolor sit amet consectetur adipisicing elit. Tempore corrupti temporibus fuga earum asperiores, alias excepturi sit mpedit fugit laudantium.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <aside class="widget contact_widgets">
+                        <h3 class="widget_title">contact</h3>
+                        <p>
+                            66 Broklyn Street, New York<br>
+                            United States of America
+                        </p>
+                        <p>P: 666 888 000</p>
+                        <p>E: <a href="#">needhelp@meipaly.com</a></p>
+                    </aside>
+                </div>
+                <div class="col-md-3">
+                    <aside class="widget social_widget">
+                        <h3 class="widget_title">social</h3>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i>Youtube</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            © copyright 2020 by <a href="#">Md Ashraf Uddin</a>
+        </div>
+    </footer>
+    <!-- Blog section -->
+    <!-- Js for jquery -->
+    <script src="js/jquery/jquery-3.4.1.min.js"></script>
+    <!-- Js for bootstrap -->
+    <script src="js/boostrap/bootstrap.min.js"></script>
+    <!-- Js for fontawesome -->
+    <script src="js/fontawesome/all.min.js"></script>
+    <script src="js/fontawesome/fontawesome.min.js"></script>
+    <!-- Js for video modal -->
+    <script src="./js/modal-video/jquery-modal-video.min.js"></script>
+    <!-- Js for  slick -->
+    <script src="./js/slick/slick.min.js"></script>
+    <!-- Js for  carousel -->
+    <script src="./js/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Js for  carousel -->
+    <script src="./js/dlmenu/dlmenu.js"></script>
+    <script>
+        $(".video_popup").modalVideo({
+			youtube:{
+				controls:0,
+				nocookie: true
+			}
+		});
+        
+        $('.team_slider').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 4,
+                responsive: [
+                    {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                    }
+                ]
+                });
+
+        $(function() {
+            $('.singleClient_area').owlCarousel({
+                loop:true,
+                margin:10,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                        nav:true
+                    },
+                    600:{
+                        items:3,
+                        nav:false
+                    },
+                    1000:{
+                        items:4,
+                        nav:false,
+                        loop:false
+                    }
+                }
+            });
+
+            /*--------------------------------------------------------
+    / 10. Search PopUp 
+    /----------------------------------------------------------*/
+   if ($(".searchToggler").length > 0)
+   {
+      var todg = true;
+      $(".searchToggler").on("click", function (e) {
+         e.preventDefault();
+         if (todg)
+         {
+            $(".searchFixed").fadeIn("slow");
+            todg = false;
+         }
+         else
+         {
+            $(".searchFixed").fadeOut("slow");
+            todg = true;
+         }
+      });
+
+      $(document).mouseup(function (e) {
+         var container = $(".searchForms");
+
+         if (!container.is(e.target) && container.has(e.target).length === 0)
+         {
+            $(".searchFixed").fadeOut("slow");
+            todg = true;
+         }
+      });
+      $("#sfCloser").on("click", function (e) {
+         e.preventDefault();
+         $(".searchFixed").fadeOut("slow");
+         todg = true;
+      });
+   }
+   $(function () {
+      $('.singleShopWrap').themeWar();
+   });
+    
+    /*---------------------------------------------------
+    / 11. Menu PopUp 
+    /-----------------------------------------------------*/
+    $(document).ready(function () {
+        $("#close-popup").on('click', function (e) {
+            e.preventDefault();
+            $("body").removeClass("menu__open show-overlay-nav");
+        });
+        $(".hamburger").on("click", function () {
+            $(this).toggleClass("is_active"), $("body").toggleClass("menu__open");
+        }), $(document).keyup(function (e) {
+            27 === e.keyCode && $(".menu__open .hamburger").click();
+        }), $("#open-overlay-nav").on("click", function () {
+            $("body").toggleClass("show-overlay-nav");
+        }), $(".dl-menu__wrap").dlmenu({
+            animationClasses: {
+                classin: "dl-animate-in-3",
+                classout: "dl-animate-out-3"
+            }
+        });
+    });
+
+        });       
+    </script>
+</body>
+
+</html>

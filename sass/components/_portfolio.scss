@@ -1,0 +1,38 @@
+.singlefolio {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    img {
+        width: 340px;
+        height: 416px;
+    }
+    .folioHover {
+        position: absolute;
+        top: 0;
+        left: -10%;
+        width: 340px;
+        height: 416px;
+        opacity: 0;
+        background: rgba(230, 43, 74, 0.5);
+        transition: all 0.5s ease-in-out;
+        padding: 320px 40px;
+        &:hover {
+            opacity: 1;
+            left: 0;
+            width: 340px;
+            height: 416px;
+        }
+        h4 a,.cat {
+            color: $color-white;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 20px;
+
+        }
+        h4 {
+            a {
+               
+            }
+        }
+    }
+}

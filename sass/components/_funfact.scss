@@ -1,0 +1,20 @@
+section#funfact_area {
+    background: $color_black;
+    padding: 0px 0px 330px;
+    text-align: center;
+    position: relative;
+    .singlefuct {
+        padding: 120px 0px 0px 0px;
+        h1 {
+            color: $color_white;
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: $color-white-gray;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}

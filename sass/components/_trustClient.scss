@@ -1,0 +1,36 @@
+.br {
+    border-right: 1px solid #1a1a1a;
+}
+section.trustClient{
+    padding: 0 0 0;
+    margin-top: -210px;
+    z-index: 5;
+}
+.cl_content {
+    position: relative;
+    img {
+        width: 774px;
+        height: 644px;
+    }
+}
+.trust-client-content {
+    position: relative;
+    margin-top: -434px;
+    z-index: 2;
+}
+.abci_content {
+    background: $color_white;
+   padding: 100px 0px 80px 80px;
+   h2 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+   }
+   p {
+       color: $color-white-gray;
+       font-size: 14px;
+       font-weight: 500;
+       margin-bottom: 40px;
+   }
+}

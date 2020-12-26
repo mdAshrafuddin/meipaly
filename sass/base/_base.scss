@@ -1,0 +1,201 @@
+/* =========================================
+                Html, Body
+============================================ */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #212226;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+}
+a:hover, a:focus, a:link{
+    text-decoration: none;
+    outline: 0;
+}
+a:focus{
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+// Default padding 
+.default-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg-gray {
+    background-color: $color-bg-gray;
+}
+#default-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+section {
+    background: #fff;
+    overflow: hidden;
+}
+.commonSection{
+    padding: 120px 0;
+    position: relative;
+}
+.commonSection .container {
+    position: relative;
+    z-index: 2;
+}
+#btn-area {
+
+}
+.common-btn {
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    background: #000000;
+    color: #fff;
+    height: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 28px 45.5px;
+    display: inline-block;
+    line-height: .8;
+    letter-spacing: 1.6px;
+    position: relative;
+    outline: none;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    font-weight: 700;
+    span {
+        position: relative;
+        z-index: 2;
+    }
+    &::after {
+        content: "";
+        width: 4px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: $color-red;
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -ms-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;      
+    }
+    &:hover{
+        color: $color-white;
+        text-decoration: none;
+        &::after{
+            width: 100%;
+        }
+    }
+    
+}
+
+// .common-btn.red_bg{
+//     padding: 28px 40.5px;
+// }
+// .common-btn.red_bg:after{
+//     background: #e62b4a;
+// }
+// .common-btn.red_bg:hover:after{
+//     width: 100%;
+// }
+// .common-btn.red_bg:hover{
+//     color: #fff;
+// }
+.common-heading {
+    
+}
+.sub_title {
+    color: $color-white-gray;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.sec_title {
+    color: $color-black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.sec_desc {
+    color: $color-white-gray;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+#home {
+    &.home_ch {
+        height: 50%;
+    .bg_img {  
+        img {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                width: auto;
+                height: auto;
+                min-width: 100%;
+                min-height: 100%;
+                z-index: -1;
+            }
+        }
+        h4 {
+            color: $color-white;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20px;
+            a {
+                color: $color-white;
+                transition: 0.4s;
+                &:hover {
+                    text-decoration: none;
+                    color: $color-black;
+                }
+            }
+        }
+        h2 {
+            color: $color-white;
+            font-size: 50px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+}

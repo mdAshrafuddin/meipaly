@@ -1,0 +1,85 @@
+#client_area {
+    padding: 70px 0px 70px 0px;
+}
+.client_slider {
+    &.owl-theme .owl-dots .owl-dot 
+    {
+        line-height: .8;
+        text-align: center;
+        margin-top: 27px;
+    span {
+        line-height: .8;
+        width: 10px;
+        height: 10px;
+        border-radius: 0;
+        margin: 0 3px;
+        padding: 0;
+        background: #dbdbdb;
+        -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+        &:active {
+            outline: none;
+            border: 0;
+        }
+    }
+}
+.singleClient {
+    background: $color-white;
+    width: 252px;
+    height: 208px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 32px;
+    // overflow: hidden;
+    &:hover {
+        -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow:    0px 10px 35px 0px rgba(0, 0, 0, 0.05);
+        box-shadow:         0px 10px 35px 0px rgba(0, 0, 0, 0.05);
+    }
+    a {
+        img {
+            display: block;
+            width: 100%;
+            max-width: 110px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            opacity: 0.4;
+            transition: all 0.5s ease-in-out;
+            
+        }
+    }
+    &::after {
+        width: 4px;
+        height: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        content: '';
+        background: #e62b4a;
+        visibility: hidden;
+        opacity: 0;
+        transition: all ease 500ms;
+        -moz-transition: all ease 500ms;
+        -webkit-transition: all ease 500ms;
+        }
+    &:hover::after {
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+    }
+}
+
+}
+.singleClient:hover a img {
+    opacity: 1;
+}
+
+.client_slider.owl-theme .owl-dots .owl-dot.active span,.client_slider.owl-theme .owl-dots .owl-dot span:hover {
+    background: $color-black;
+}

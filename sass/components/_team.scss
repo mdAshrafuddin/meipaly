@@ -1,0 +1,91 @@
+.team_slider {
+    
+}
+.single_team {
+    .tm_img {
+        position: relative;
+        margin-bottom: 35px;
+        img {
+            width: 285px;
+            height: 344px;
+        }
+    }
+    .tm_overly {
+        padding: 54px 0px 0px 54px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 292px;
+        height: 344px;
+        // opacity: 0;
+        transition: all ease 900ms;
+        -moz-transition: all ease 900ms;
+        -webkit-transition: all ease 900ms;
+        -o-transition: all ease 900ms;
+        overflow: hidden;
+        opacity: 0;
+        &::after{
+            content: "";
+            position: absolute;
+            background: rgba($color-red, 0.6);
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: -100px;
+            padding: 54px 0px 0px 54px;
+            opacity: 0;
+            transition: all .5s ease-in-out;
+             
+        }
+        &:hover {
+            opacity: 1;
+        }
+        &:hover::after {
+            opacity: 1;
+            right: 0;
+        }
+       
+        .team_social {
+            a {
+                display: block;
+                color: $color-white;
+                font-weight: 500;
+                font-size: 13px;
+                text-transform: uppercase;
+                padding: 0px 0px 6px 0px;
+                z-index: 2;
+                position: relative;
+                span {
+    
+                }
+            }
+        }
+        .common-btn {
+            margin-top: 74px;
+            width: 152px;
+            padding: 27px 15px 22px 20px;
+            z-index: 2;
+            position: relative;
+        }
+    }
+}
+
+.detail_TM {
+    text-align: center;
+    h5 {
+        text-transform: uppercase;
+        font-size: 26px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+        font-weight: 600;
+        &:hover {
+            color: $color-red;
+
+        }
+    }
+    h6 {
+        color: $color-white-gray;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}

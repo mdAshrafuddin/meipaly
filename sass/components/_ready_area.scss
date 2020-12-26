@@ -1,0 +1,14 @@
+#ready_area {
+    background: $color-red;
+    padding: 100px 0px;
+    h2{
+        &.white {
+            color: $color-white;
+            margin: 0;
+            font-weight: 700;
+            font-size: 36px;
+            letter-spacing: 0.2px;
+            line-height: 68px;
+        }
+    }
+}
